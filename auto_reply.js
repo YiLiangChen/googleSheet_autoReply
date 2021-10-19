@@ -10,7 +10,7 @@ function onSubmit() {
 
 // get mail address from sheet (in order to get latest submitter mail address) 
   var lastRow = sheet.getActiveCell().getLastRow();
-  email = sheet.getRange("C"+lastRow).getValue();
+  email = sheet.getRange("B"+lastRow).getValue();
 
 // send mail 
   MailApp.sendEmail({
