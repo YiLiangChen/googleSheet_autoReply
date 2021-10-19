@@ -17,7 +17,7 @@ step 6. select toolbar from left side ,click triggering conditions and add new t
 
 step 7. select activate type : when submitting the form
 
-notice: the code part getRange("C") means column "C" ; so make sure your column C in sheet is mail column or replace to another column alphabet
+notice: the code part getRange("B") means column "B" ; so make sure your column B in sheet is mail column or replace to another column alphabet
 
 ------------- 中文 ----------------
 
@@ -49,5 +49,5 @@ step 7. 選取活動類型為 「提交表單」時
 
 ![image](https://user-images.githubusercontent.com/17447427/137954710-47646f11-2297-4808-838f-a1d4589dfc07.png)
 
-注意：程式碼中 getRange("C") 代表試算表中 C 欄位，所以請確認 C 欄是存放 mail 資訊的欄位，或調整程式碼為相應欄位
+注意：程式碼中 getRange("B") 代表試算表中 B 欄位，所以請確認 B 欄是存放 mail 資訊的欄位，或調整程式碼為相應欄位
 
